@@ -7,34 +7,30 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
-  color: white;
   overflow: hidden;
 }
 
-.completed {
-  text-decoration: line-through;
+body {
+  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+  color: white;
 }
 
-.display-todos {
-  height: 30rem;
-  overflow-y: scroll;
+.main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 
+.my-img {
+  height: 43rem;
+  border-radius: 2rem;
+  width: 35rem;
 
-.display-todos::-webkit-scrollbar {
-  width: 0.5em;
-  /* Set a width for the invisible scrollbar */
 }
 
-.display-todos::-webkit-scrollbar-thumb {
-  background-color: transparent;
-  /* Set the thumb color to be transparent */
-}
-
-.footer {
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
+.body-text {
+  max-width: 35rem;
 }
