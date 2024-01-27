@@ -23,9 +23,11 @@ Provide step-by-step instructions on how to run the project locally.
 
 ```bash
 # Example command to run the project
+git clone https://github.com/Abinash-Adhikari/react-projects.git
+cd react-projects 
 git checkout project_name
 npm install
-npm start
+npm run dev
 
 ```
 

@@ -1,0 +1,40 @@
+:root {
+  --bs-dark-rgb: 33, 37, 41;
+  --bs-bg-opacity: 1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+  color: white;
+  overflow: hidden;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.display-todos {
+  height: 30rem;
+  overflow-y: scroll;
+}
+
+
+.display-todos::-webkit-scrollbar {
+  width: 0.5em;
+  /* Set a width for the invisible scrollbar */
+}
+
+.display-todos::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  /* Set the thumb color to be transparent */
+}
+
+.footer {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
