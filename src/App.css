@@ -34,3 +34,31 @@ body {
 .body-text {
   max-width: 35rem;
 }
+
+.temperature-display {
+  display: flex;
+  justify-content: space-between;
+}
+
+.td-left {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tdl-icon,
+.tdl-num {
+  font-size: 4rem;
+}
+
+.day-card {
+  border: 1px solid white;
+  width: 4rem;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+
+.temp-icon {
+  font-size: 2rem;
+}
